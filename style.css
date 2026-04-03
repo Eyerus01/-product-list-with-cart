@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.img{
+    position: relative;
+    
+    
+}
+.btn{
+  position: absolute;
+  top: 100;   /* pushes it slightly below image border */
+  left: 50%;
+  transform: translate(-50% ,-50%); /* perfect horizontal center */
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 20px;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+.card{
+  border-radius: 10px;
+}
+.name{
+ color: #999;
+}
+.title{
+ font-weight: bold;
+}
+.amount{
+ color:red;
+}
